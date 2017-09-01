@@ -1,6 +1,7 @@
 const express = require('express');
 const { join } = require('path');
 const { createRenderer } = require('@stencil/core');
+const { logger } = require('@stencil/core/bin/util');
 const { readFile } = require('fs');
 
 const app = express();
@@ -29,14 +30,19 @@ app.get('/*', (req, res) => {
       return;
     }
 
+    const buildConfig = {
+      logger: new logger.CommandLineLogger({
+        level: 'debug',
+        process: process
+      })
+    };
+
     // Render the initial app content through Stencil
     renderer.hydrateToString({
       html,
       req,
-      config: {}
-    }).then(results => {
-      res.send(results.html);
-    })
+      config: buildConfig
+    }, (results) => res.send(results.html));
   });
 
 });
