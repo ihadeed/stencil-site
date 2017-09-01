@@ -6,6 +6,11 @@ import { Component } from '@stencil/core';
   styleUrl: 'landing-page.scss'
 })
 export class LandingPage {
+  componentWillLoad() {
+    const siteTitle: any = document.querySelector('site-title');
+    siteTitle.setTitle('Stencil', false);
+  }
+
   render() {
     return (
       <div>

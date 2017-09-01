@@ -1,7 +1,7 @@
 exports.config = {
   publicPath: '/build',
   bundles: [
-    { components: ['stencil-site', 'site-header', 'landing-page', 'youtube-video'] },
+    { components: ['stencil-site', 'site-header', 'landing-page', 'youtube-video', 'site-title'] },
     { components: ['app-marked', 'site-menu'] },
     { components: ['demos-page', 'document-component'] }
   ],

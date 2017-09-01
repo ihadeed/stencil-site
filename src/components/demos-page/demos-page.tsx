@@ -5,6 +5,11 @@ import { Component, State } from '@stencil/core';
   styleUrl: 'demos-page.scss'
 })
 export class DemosPage {
+  componentWillLoad() {
+    const siteTitle: any = document.querySelector('site-title');
+    siteTitle.setTitle('Demos');
+  }
+
   @State() demos = [
     {
       title: 'Stenciljs.com',
