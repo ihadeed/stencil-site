@@ -24,11 +24,11 @@ const fileManifest = [
   },
   {
     "url": "build/app.js",
-    "revision": "5e9e384278ff62b9f2a5d92955d2107e"
+    "revision": "95b320ddf2c9a00db07e2b95790e8315"
   },
   {
     "url": "build/app.registry.json",
-    "revision": "f6225843a9db86566405f11ea8ccae2b"
+    "revision": "c57b0983b009aa73389b8ebbcd4ed476"
   },
   {
     "url": "build/app/1ydqlcjk.js",
@@ -43,28 +43,28 @@ const fileManifest = [
     "revision": "15cce814d25e18cd79415389e41a3a6a"
   },
   {
-    "url": "build/app/app.rhubgapg.js",
-    "revision": "37ceca1d1ca8a94d2f0f3b1f67e8cc9a"
+    "url": "build/app/app.nhfdtzcg.js",
+    "revision": "14a42b130a0dc58e9793128e95998430"
   },
   {
-    "url": "build/app/app.yvc3k2aj.pf.js",
-    "revision": "72aeae512b6f647f5d6387a928c46809"
-  },
-  {
-    "url": "build/app/dkrz2obe.js",
-    "revision": "2d55f2c3131ca103e2b8b1014e961c3a"
+    "url": "build/app/app.p2ckhd5y.pf.js",
+    "revision": "7e9b1fd78fb50cc83a51772f3c838d57"
   },
   {
     "url": "build/app/dmcjncaa.css",
     "revision": "e40a8ba930f4eb73a154610c5d7dcf48"
   },
   {
+    "url": "build/app/esp5bgtn.js",
+    "revision": "dae28e74190ac9a5581e42308530ab43"
+  },
+  {
     "url": "build/app/i9v8j59r.css",
     "revision": "eebf4b0bd8b013ee19cb731fa9b8fb16"
   },
   {
-    "url": "build/app/mfreoxjz.js",
-    "revision": "3c778f56838c272da61c4724543e8cda"
+    "url": "build/app/n7dnkpyh.js",
+    "revision": "63f13ea10126fb8d9d7cd34da0874da3"
   },
   {
     "url": "build/app/yjborbvy.css",
@@ -99,6 +99,10 @@ const fileManifest = [
     "revision": "ab1bda4baad03cea64089b74f7f4c321"
   },
   {
+    "url": "docs-content/basics/decorators.html",
+    "revision": "19c4621b1af950f6d0ad6eafe142fce9"
+  },
+  {
     "url": "docs-content/basics/defining-components.html",
     "revision": "8929e96daf4f74837f7fc3aac5cd43ac"
   },
@@ -125,6 +129,10 @@ const fileManifest = [
   {
     "url": "docs-content/basics/stencil-router.html",
     "revision": "e2f079693db64c05e634ed9327d3dd33"
+  },
+  {
+    "url": "docs-content/basics/templating.html",
+    "revision": "169d137a513f451cc4484ea3ed4bc0cb"
   },
   {
     "url": "docs-content/basics/using-events.html",
@@ -172,7 +180,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a5aff2ce5f1eb809475412d05c7512ba"
+    "revision": "e396c357aeb2c11beee7b7696705b508"
   },
   {
     "url": "manifest.json",

@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@stencil/core": "0.0.5-10",
-    "@stencil/router": "0.0.7-5"
+    "@stencil/router": "0.0.7-5",
+    "express": "^4.15.4"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
